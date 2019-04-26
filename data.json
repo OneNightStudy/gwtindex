@@ -31,15 +31,15 @@
         {"title":"合肥客户利用自动卖菜机开启未来生鲜之路","time":"2016年11月09日 10:36","url":"caseVS-8.html"}
     ],
     "product":[
-        {"title":"多媒体非格","src":"product-1.jpg"},
-        {"title":"简约式非格","src":"product-2.jpg"},
-        {"title":"智能药品机","src":"product-3.jpg"},
-        {"title":"智能生鲜非格","src":"product-4.jpg"},
-        {"title":"智能物联网非格","src":"product-5.jpg"},
-        {"title":"智能成人用品非格","src":"product-6.jpg"},
-        {"title":"智能透明屏非格","src":"product-7.jpg"},
-        {"title":"智能果汁机","src":"product-8.jpg"},
-        {"title":"智能回收机","src":"product-9.jpg"}
+        {"name":"zhshj","title":"综合售货机","src":"product-1.jpg"},
+        {"name":"ylshj","title":"饮料售货机","src":"product-2.jpg"},
+        {"name":"qpytshj","title":"全屏一体售货机","src":"product-3.jpg"},
+        {"name":"crypj","title":"成人用品机","src":"product-4.jpg"},
+        {"name":"bdfhqcj","title":"便当盒饭取餐机","src":"product-5.jpg"},
+        {"name":"sxgssmj","title":"生鲜果蔬售卖机","src":"product-6.jpg"},
+        {"name":"ypshj","title":"药品售卖机","src":"product-7.jpg"},
+        {"name":"gzgshj","title":"格子柜售货机","src":"product-8.jpg"},
+        {"name":"dzcp","title":"定制产品","src":"product-9.jpg"}
     ],
     "productSZ":[
         {"title":"会议一体机","src":"productSZ-1.jpg"},

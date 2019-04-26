@@ -198,12 +198,17 @@
     <script type="text/javascript">
     $(function(){
         $.getJSON("data.json" , function(data) {
-            $.each(data.product,function (i){
-                $(".product_top>.pt_right").append('<li><img src="picture/'+this.src+'"/><p class="p3"></p></li>')
-                $(".pt_right .p3").eq(i).html(this.title);
+            $.each(data.product,function (i,n){
+                $(".product_top>.pt_right").append('<li><img src="picture/'+n.src+'"/><p class="p3"></p></li>')
+                $(".pt_right .p3").eq(i).html(n.title);
                 if (bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid){
                     $(".pt_right .p3").eq(5).html("智能成人非格");
                 }
+
+                //页面产品信息更换
+                var dom = $("#pro_bd .wzbox").eq(i)
+                dom.find(".p1").html(n.title)
+                console.log(n)
             });
             var onId = window.location.href.split("#p");     //获取当前#p中的数值
             if(onId.length > 1){

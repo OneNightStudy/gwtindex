@@ -116,7 +116,18 @@
                         <i></i>
                         <a href="product.html">产品</a>
                     </dt>
-                    <dd class='productList'>
+                    <dd>
+                     <a href="product.html">综合售货机</a>
+                     <a href="productSZ.html">饮料售货机</a>
+                     <a href="productZN.html" >全屏一体售货机</a>
+                      <a href="product.html">成人用品机</a>
+                     <a href="productSZ.html">便当盒饭取餐机</a>
+                     <a href="productZN.html" >生鲜果蔬售卖机</a>
+                     <a href="productZN.html" >药品售卖机</a>
+                     <a href="productZN.html" >格子柜售货机</a>
+                     <a href="productZN.html" >定制机</a>
+                     
+                     
                     </dd>
                 </dl>
                  <dl>
@@ -252,52 +263,6 @@
 
             }
 
-            var productObj = {
-                'zhshj' : '综合售货机',
-                'ylshj' : '饮料售货机',
-                'qpytshj' : '全屏一体售货机',
-                'crypj' : '成人用品机',
-                'bdfhqcj' : '便当盒饭取餐机',
-                'sxgssmj' : '生鲜果蔬售卖机',
-                'ypshj' : '药品售卖机',
-                'gzgshj' : '格子柜售货机',
-                'dzcp' : '定制产品',
-            }
-            var str = ''
-            for(let [key,value] of Object.entries(productObj)){
-                str += `<a href="product.html">${value}</a>`
-            }
-            $(".xpage3_hd_li").mouseenter(function(){
-                $(this).addClass('on').siblings().removeClass('on');
-            })
-
-
-            for(var i=0;i<9;i++){
-                $(".xpage3_hd_li")[i].href = "product.html#p"+i;
-            };
-
-            for(var i=9;i<10;i++){
-                $(".xpage3_hd_li")[i].href = "productZN.html#p"+(i-9);
-            };
-
-//            1
-            $('.xind_banner').slick({
-                dots: true,
-                arrows: false,
-                autoplay: true,
-                autoplaySpeed: 5000,
-                infinite: true,
-                speed: 500,
-                fade: false,
-                cssEase: 'linear'
-            });
-
-            $('.xind_product').slick({
-                autoplay: true,
-                autoplaySpeed: 8000,
-                speed: 500,
-            });
-
             function page3size(){
                 if($(window).width()<767){
                     $('.xpage3_hd_li').eq(3).hide();
@@ -308,6 +273,45 @@
                     $('.xpage3_bd li').show();
                 }
             }
+
+            $.getJSON("data.json" , function(data) {
+                $.each(data.product,function (i,n){
+                    //页面产品信息更换
+                    var dom = $(".xpage3_hd_li").eq(i)
+                    dom.find("img").attr({ alt: n.title })
+                    dom.find(".p1").html(n.title)
+                })
+                $(".xpage3_hd_li").mouseenter(function(){
+                    $(this).addClass('on').siblings().removeClass('on');
+                })
+
+
+                for(var i=0;i<9;i++){
+                    $(".xpage3_hd_li")[i].href = "product.html#p"+i;
+                };
+
+                for(var i=9;i<10;i++){
+                    $(".xpage3_hd_li")[i].href = "productZN.html#p"+(i-9);
+                };
+
+                $('.xind_banner').slick({
+                    dots: true,
+                    arrows: false,
+                    autoplay: true,
+                    autoplaySpeed: 5000,
+                    infinite: true,
+                    speed: 500,
+                    fade: false,
+                    cssEase: 'linear'
+                });
+
+                $('.xind_product').slick({
+                    autoplay: true,
+                    autoplaySpeed: 8000,
+                    speed: 500,
+                });
+
+            })
         });
     </script>
 
