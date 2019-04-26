@@ -1,0 +1,598 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>希沃·seewo</title>
+	<meta name="keywords" content="希沃·SEEWO | 交互智能平板|教学应用方案|教学支撑方案" />
+	<meta name="description" content="广州视睿电子科技有限公司，注册资本8832万元人民币，其母公司视源股份是国内较早涉足液晶显示领域的企业之一，视源股份现已成为全球领先的液晶驱动类产品方案提供商。" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" type="text/css" href="/Public/Home/css/style.css" />
+    <script type="text/javascript" src="/Public/Home/js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="/Public/Home/js/app.js"></script>
+    <script type="text/javascript" src="/Public/Home/js/plug.js"></script>
+	<script type="text/javascript" src="/Public/Home/js/myScript.js"></script>
+    <!--[if IE 8]>
+    <script type="text/javascript" src="/Public/Home/js/ie8_hack.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        var head = document.getElementsByTagName('head')[0];
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        var sUserAgent = navigator.userAgent.toLowerCase();
+        var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+        var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+        var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+        var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+        var bIsAndroid = sUserAgent.match(/android/i) == "android";
+
+        if (bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid) {
+            link.href = "/Public/Home/css/phone.css"
+        } else {
+            link.href = "/Public/Home/css/pc.css";
+        }
+
+        head.appendChild(link);
+    </script>
+	<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?f9ed3a28e5a27d86c1d16a92a365d194";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+
+<body>
+
+<header>
+    <a href="/" class="logo l"><img src="/Public/Home/images/logo.png" width="100%" alt=""/></a>
+    <!--pc-->
+    <dl class="r hd_serch">
+        <dt><a href="javascript:"></a></dt>
+        <dd>
+		<form action="/Info/search.html" method="post">
+            <input class="tex" name="keyword" type="text" placeholder="关键字查找" />
+		</form>
+        </dd>
+    </dl>
+    <ul class="pc_nav">
+		<li><a href="/">首页</a></li>
+        <li ><a href="/products/a-series.html">产品</a>
+            <div class="erji erji3">
+            <dl class="erji_dl">
+                    <dt><a href="/products/a-series.html" >交互智能平板</a></dt>
+					<dd><a href="/products/a-series.html" >A系列</a></dd><dd><a href="/products/h-series.html" >H+系列</a></dd><dd><a href="/products/s-series.html" >S系列</a></dd>                </dl><dl class="erji_dl">
+                    <dt><a href="/products/software/easinote.html" >应用软件</a></dt>
+					<dd><a href="/products/software/easinote.html" >白板工具</a></dd><dd><a href="/products/software/easishow.html" >互动展示</a></dd><dd><a href="/products/software/easisign.html" >电子签名</a></dd><dd><a href="/products/software/seewoclass.html" >互动教学</a></dd><dd><a href="/products/software/seewolink.html" >无线互联</a></dd><dd><a href="/products/software/seeworemote.html" >集控管理</a></dd><dd><a href="/products/software/easivke.html" >微课制作</a></dd><dd><a href="/products/software/easieb.html" >音视频直播</a></dd><dd><a href="/products/software/easimedia.html" >信息发布</a></dd><dd><a href="/products/software/easinet.html" >远程教学</a></dd>                </dl><dl class="erji_dl">
+                    <dt><a href="/Products/envir/cat_id/7.html" >周边产品</a></dt>
+					<dd><a href="/products/sideline/wall-mounting.html" >授课宝</a></dd><dd><a href="/products/sideline/wlamplifier.html" >智能笔</a></dd><dd><a href="/products/sideline/wltran.html" >壁挂式展台</a></dd><dd><a href="/products/sideline/movingfeet.html" >折叠式展台</a></dd><dd><a href="/products/sideline/elecfeet.html" >无线传屏</a></dd><dd><a href="/products/sideline/folding.html" >无线功放</a></dd><dd><a href="/products/sideline/teachmob.html" >移动脚架</a></dd><dd><a href="/products/sideline/smart-pen.html" >电动脚架</a></dd>                </dl>    
+            
+			 <dl class="erji_dl">
+                    <dt><a href="/service/training/intro-ifp.html">产品培训</a></dt>
+                    <dd><a href="/service/training/intro-ifp.html">
+                        <img src="/Uploads/Banner/original_img/562b4628abf52.jpg" alt=""/>
+                    </a></dd>
+                </dl>
+			</div>
+        </li>
+       <li ><a href="/solution/classic.html">方案</a>
+            <div class="erji  erji1">
+                <dl class="erji_dl">
+                    <dt><a href="/solution/classic.html">教学应用方案</a></dt>
+                    						<dd><a href="/solution/classic.html">经典课堂</a></dd>						<dd><a href="/solution/interactive.html">互动课堂</a></dd>						<dd><a href="/solution/remote-classroom.html">远程课程</a></dd>						<dd><a href="/solution/future.html">未来课堂</a></dd>					
+                </dl><dl class="erji_dl">
+                    <dt>                    <a href="/solution/intelpre.html">支撑平台方案</a></dt>
+                    						<dd><a href="/solution/intelpre.html">智慧备课</a></dd>						<dd><a href="/solution/centralized.html">集控管理</a></dd><dd><a >资源共享</a></dd>
+					<dd><a >教学分析</a></dd>
+										
+                </dl>                
+                <dl class="erji_dl">
+                    <dt><a href="/service/training/intro-solution.html">方案培训</a></dt>
+                    <dd><a href="/service/training/intro-solution.html">
+                        <img src="/Uploads/Banner/original_img/562b46351a10e.jpg" alt=""/>
+                    </a></dd>
+                </dl>
+            </div>
+        </li>
+		<li ><a href="/service/training.html">服务</a>
+			 <div class="erji erji2">
+                <dl class="erji_dl" >
+					
+                    <dd><a href="/service/training.html">培训视频</a></dd><dd><a href="/service/download.html">下载专区</a></dd><dd><a href="/service/useguide.html">使用指南</a></dd><dd><a href="/servicepolicy.html">服务政策</a></dd><dd><a href="/service/faq.html">常见问题</a></dd><dd><a href="/service/network.html">服务网络</a></dd>                </dl> 
+            
+            </div>
+        </li>
+
+        <li ><a href="/about/intro.html">我们</a>
+			 <div class="erji erji2">
+                <dl class="erji_dl">
+                    <dd><a href="/about.html">关于希沃</a></dd><dd><a href="/news.html">希沃动态</a></dd><dd><a href="/about/history.html">希沃历程</a></dd>					 <dd><a href="/Contact/index.html">联系我们</a></dd>
+					 <dd><a href="http://hr.cvte.com">加入希沃</a></dd>
+                </dl>
+            </div>
+		</li>
+
+        <li><a target="block" href="http://bbs.seewo.com">社区</a></li>
+        <li class="head_ewm_but"><a href="###" >在线商城</a>
+            <div class="head_ewm">
+                <img src="/Public/Home/images/pic67.jpg" alt=""/>
+                <p class="p1">请扫描二维码进入微商城</p>
+            </div>
+        </li>
+   
+       
+    </ul>
+    <!--pc-->
+
+    <!--phone-->
+    <dl class="phone_side r">
+        <dt><a href="javascript:"><img src="/Public/Home/images/pic17.png" width="100%" alt=""/></a></dt>
+        <dd>
+            <form id="cmfrom" action="/Info/search.html" method="post">
+                <input class="tex" name="keyword" type="text"/>
+                <input class="but" type="submit"  value="搜索"/>
+            </form>
+            <div class="phone_navbar">
+                <dl>
+                    <dt>
+                        <a href="/">首页</a>
+                    </dt>
+                </dl>
+                <dl>
+                    <dt>
+                        <i></i>
+                        <a href="/products/a-series.html">产品</a>
+                    </dt>
+                    <dd>
+					 <a href="/products/a-series.html" >交互智能平板</a><a href="/products/software/easinote.html" >应用软件</a><a href="/Products/envir/cat_id/7.html" >周边产品</a>    
+						<a href="/service/training/intro-ifp.html">产品培训</a>
+                    </dd>
+
+                </dl>
+                <dl>
+                    <dt>
+                        <i></i>
+                        <a href="/solution/classic.html">方案</a>
+                    </dt>
+                    <dd>
+                        <a href="/solution/classic.html">教学应用方案</a>
+                        <a href="/solution/intelpre.html">支撑平台方案</a>
+                        <a href="/service/training/intro-solution.html">方案培训</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <i></i>
+                        <a href="/service/training.html">服务</a>
+                    </dt>
+                    <dd>
+						<a href="/service/training.html">培训视频</a><a href="/service/download.html">下载专区</a><a href="/service/useguide.html">使用指南</a><a href="/servicepolicy.html">服务政策</a><a href="/service/faq.html">常见问题</a><a href="/service/network.html">服务网络</a>                     
+                    </dd>
+                </dl>
+
+                <dl>
+                    <dt>
+                        <i></i>
+                        <a href="/about/intro.html">我们</a>
+                    </dt>
+                    <dd>
+						<a href="/about.html">关于希沃</a><a href="/news.html">希沃动态</a><a href="/about/history.html">希沃历程</a>						<a href="/Contact/index.html">联系我们</a>
+						<a href="http://hr.seewo.com">加入希沃</a>
+                    </dd>
+                </dl>
+
+                <dl>
+                    <dt>
+                        <a href="http://bbs.seewo.com">社区</a>
+                    </dt>
+                   
+                </dl>
+
+            </div>
+        </dd>
+    </dl>
+    <!--phone-->
+</header>
+
+<div class="ny_con">
+
+
+    <div class="slider xind_banner">
+	 <div><div class="image"><a  href="javascript:;"><img width="100%" src="/Uploads/Banner/original_img/56cc06c6a19ef.png"/></a></div></div>    </div>
+
+
+
+    <div class="xind_radio pd12">
+        <div class="xind_radio_inner">
+            <img src="/Public/Home/images/pic19.png" class="xind_radio_bg" alt=""/>
+            <ul class="ip2_wai">
+			<li class="li1"><a href="/solution/classic.html">
+                    <img src="/Public/Home/images/pic20.png" class="mycenter default" alt=""/>
+                    <img src="/Public/Home/images/pic21.png" class="mycenter hover" alt=""/>
+                    <div class="con mycenter">
+                        <p class="p1">经典<span></span>课堂</p>
+                    </div>
+                </a></li><li class="li2"><a href="/solution/interactive.html">
+                    <img src="/Public/Home/images/pic20.png" class="mycenter default" alt=""/>
+                    <img src="/Public/Home/images/pic21.png" class="mycenter hover" alt=""/>
+                    <div class="con mycenter">
+                        <p class="p1">互动<span></span>课堂</p>
+                    </div>
+                </a></li><li class="li3"><a href="/solution/remote-classroom.html">
+                    <img src="/Public/Home/images/pic20.png" class="mycenter default" alt=""/>
+                    <img src="/Public/Home/images/pic21.png" class="mycenter hover" alt=""/>
+                    <div class="con mycenter">
+                        <p class="p1">远程<span></span>课程</p>
+                    </div>
+                </a></li><li class="li4"><a href="/solution/future.html">
+                    <img src="/Public/Home/images/pic20.png" class="mycenter default" alt=""/>
+                    <img src="/Public/Home/images/pic21.png" class="mycenter hover" alt=""/>
+                    <div class="con mycenter">
+                        <p class="p1">未来<span></span>课堂</p>
+                    </div>
+                </a></li>            </ul>
+            <ul class="ip2_nei">
+                
+            <li  class="li1">				<a href="/solution/intelpre.html">
+					 <img src="/Public/Home/images/pic22.png" class="mycenter default" alt=""/>
+                    <img src="/Public/Home/images/pic23.png" class="mycenter hover" alt=""/>
+                    <div class="con mycenter">
+                        <p class="p1">智慧<span></span>备课</p>
+                    </div>
+                </a>				</li><li  class="li2">				<a href="/solution/centralized.html">
+					 <img src="/Public/Home/images/pic22.png" class="mycenter default" alt=""/>
+                    <img src="/Public/Home/images/pic23.png" class="mycenter hover" alt=""/>
+                    <div class="con mycenter">
+                        <p class="p1">集控<span></span>管理</p>
+                    </div>
+                </a>				</li><li  class="li3"><a >
+					<img src="/Public/Home/images/pic22.png" class="mycenter default" alt=""/>
+                    <img src="/Public/Home/images/pic23.png" class="mycenter hover" alt=""/>
+                    <div class="con mycenter">
+                        <p class="p1">资源<span></span>共享</p>
+                    </div>
+                </a>				</li><li  class="li4"><a >
+					<img src="/Public/Home/images/pic22.png" class="mycenter default" alt=""/>
+                    <img src="/Public/Home/images/pic23.png" class="mycenter hover" alt=""/>
+                    <div class="con mycenter">
+                        <p class="p1">教学<span></span>分析</p>
+                    </div>
+                </a>				</li>            </ul>
+        </div>
+    </div>
+
+
+    <div class="xind_tab" style="display:none;">
+        <ul class="xpage3_bd pd12">
+		 <li class="pd12 on"><a href="/Products-index-cat_id-2-nid-3.html">
+                <img class="img" src="/Uploads/Banner/original_img/5629a9bfa17a9.png" alt=""/>
+                <div class="wz">
+                    <p class="p1">交互智能平板</p>
+                    <p class="p3">希沃交互智能平板，是一个集成了大屏高清显示、交互式电子白板、电脑、电视、音箱和网络传输等多项功能于一身的多媒体教学演示与操作平台。其操作界面简洁明了，搭配希沃自主研发的多款系统软件，可任意调用海量的多媒体资源，被广泛应用在教育教学、商务会议、主题展示等领域。</p>
+                </div>
+            </a></li><li class="pd12 on"><a href="/Products-envir-cat_id-7-nid-22.html">
+                <img class="img" src="/Uploads/Banner/original_img/56331fca60e70.png" alt=""/>
+                <div class="wz">
+                    <p class="p1">授课宝</p>
+                    <p class="p3">4.5”高清电容屏，同步遥控大屏内容<br />
+15米无线扩音，授课清晰洪亮<br />
+800w广角摄像头，集成高清摄像，实物展示功能</p>
+                </div>
+            </a></li><li class="pd12 on"><a href="/Products-envir-cat_id-7-nid-26.html">
+                <img class="img" src="/Uploads/Banner/original_img/5629aac3c12ce.png" alt=""/>
+                <div class="wz">
+                    <p class="p1">折叠式展台</p>
+                    <p class="p3">一体化双摄头设计，支持双画面同时输出和主副画面切换<br />
+高清画面、高速动态录制，自动对焦，500w像数主摄像头，高帧数副摄像头<br />
+USB扩展接口，方便插接U盘<br />
+触摸按键，提高使用寿命</p>
+                </div>
+            </a></li><li class="pd12 on"><a href="/Products-envir-cat_id-7-nid-25.html">
+                <img class="img" src="/Uploads/Banner/original_img/562a39ca217ab.png" alt=""/>
+                <div class="wz">
+                    <p class="p1">智能笔</p>
+                    <p class="p3"><span style="line-height:1;">支持PPT播放和批注</span> <span style="line-height:1;">单接收器，双系统响应</span> <span style="line-height:1;">一键任意通道放大镜</span> <span style="line-height:1;">一键任意通道批注</span></p>
+                </div>
+            </a></li>            
+        </ul>
+        <div class="xpage3_hd pd12">
+            <div class="slider xpage3_hd_slider">
+			<div class="xpage3_hd_li on">
+                        <img src="/Uploads/Banner/original_img/5629a9bfa17a9.png" alt=""/>
+                        <p class="p1">交互智能平板</p>
+                        <img src="/Public/Home/images/pic170.png" class="cu" alt=""> <!-- 1125 -->
+                </div><div class="xpage3_hd_li ">
+                        <img src="/Uploads/Banner/original_img/56331fca60e70.png" alt=""/>
+                        <p class="p1">授课宝</p>
+                        <img src="/Public/Home/images/pic170.png" class="cu" alt=""> <!-- 1125 -->
+                </div><div class="xpage3_hd_li ">
+                        <img src="/Uploads/Banner/original_img/5629aac3c12ce.png" alt=""/>
+                        <p class="p1">折叠式展台</p>
+                        <img src="/Public/Home/images/pic170.png" class="cu" alt=""> <!-- 1125 -->
+                </div><div class="xpage3_hd_li ">
+                        <img src="/Uploads/Banner/original_img/562a39ca217ab.png" alt=""/>
+                        <p class="p1">智能笔</p>
+                        <img src="/Public/Home/images/pic170.png" class="cu" alt=""> <!-- 1125 -->
+                </div>            
+                <div class="xpage3_hd_li">
+                    <a href="/products/h-series.html">
+                        <img src="/Public/Home/images/pic28.png" alt=""/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script type="text/javascript">
+    $(window).load(function(){
+        $('.xind_tab').show();
+    });
+</script>
+
+    <div class="xind_page4">
+        <ul class="pd12">
+		<li class="li1"><a href="service/download.html">
+                <img class="img1" src="/Uploads/Banner/original_img/562dd82239dd0.png" alt="下载中心" />
+                <img class="img2" src="/Uploads/Banner/original_img/562a307d15deb.png" alt="下载中心" />
+                <p class="p1">了解更多</p>
+            </a></li>
+		<li class="li2"><a href="http://bbs.seewo.com/forum.php?mod=forumdisplay&fid=45">
+                <img class="img1" src="/Uploads/Banner/original_img/562de2556bfd2.png" alt="希沃社区" />
+                <img class="img2" src="/Uploads/Banner/original_img/5629e85bb4437.png" alt="希沃社区" />
+                <p class="p1">了解更多</p>
+            </a></li>
+					<li class="li3"><a class="dianji" href="javascript:;">
+                <img class="img1" src="/Uploads/Banner/original_img/562dd63bea053.png" alt="" />
+                <img class="img2" src="/Uploads/Banner/original_img/562dd63be4083.png" alt="" />
+                <p class="p1">扫一扫 进商城</p>
+            </a></li>  
+<script>
+	$(function(){
+		$('.dianji').click(function(){
+			if($('.head_ewm').hasClass('on')){
+				$('.head_ewm').removeClass('on');
+			}else{
+				$('.head_ewm').addClass('on');
+			}
+		});
+		
+	})
+
+</script>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        $(function(){
+
+            $(window).load(function(){
+                page2size();
+            });
+            $(window).resize(function(){
+                page2size();
+            });
+
+            function page2size(){
+
+                $('.xpage3_hd_li img').css({
+                    'padding-top':($('.xpage3_hd_li img').width() - $('.xpage3_hd_li img').height())/2,
+                    'padding-bottom':($('.xpage3_hd_li img').width() - $('.xpage3_hd_li img').height())/2
+                });
+
+                $('.xpage3_hd_li .p1').css({
+                    'padding-top':($('.xpage3_hd_li img').width() - $('.xpage3_hd_li img').height())/4
+                });
+
+                page3size();
+
+                $('.xpage3_bd').height($('.xpage3_bd li').height());
+
+            }
+
+//            1
+            $('.xind_banner').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: false,
+                cssEase: 'linear'
+            });
+
+
+//            3
+//            $('.xpage3_hd_slider').slick({
+//                dots: true,
+//                infinite: false,
+//                speed: 100,
+//                slidesToShow: 5,
+//                slidesToScroll: 5,
+//                responsive: [
+//                    {
+//                        dots: true,
+//                        breakpoint: 500,
+//                        speed: 100,
+//                        settings: {
+//                            slidesToShow:3,
+//                            slidesToScroll:2,
+//                            infinite: false
+//                        }
+//                    }
+//                ]
+//            });
+
+            $('.xpage3_hd_li').click(function(){
+                var x =$(this).index();
+                if(x<=3){
+                    $(this).addClass('on').siblings('.xpage3_hd_li').removeClass('on');
+                    $('.xpage3_bd').find('li').eq(x).addClass('on').siblings('li').removeClass('on');
+                }
+            });
+
+            function page3size(){
+                if($(window).width()<767){
+                    $('.xpage3_hd_li').eq(3).hide();
+                    $('.xpage3_hd_li').eq(2).hide();
+                    $('.xpage3_hd_li').eq(0).click();
+                }else{
+                    $('.xpage3_hd_li').show();
+                    $('.xpage3_bd li').show();
+                }
+                var p3arr=[];
+                $('.xpage3_bd li').each(function(){
+                    var x = $(this).find('.img').height();
+                    var y = $(this).find('.wz').height();
+                    if($(window).width()>767){
+                        if(x>y){
+                            $(this).find('.wz').css({'padding-top':(x-y)/2}).siblings('.img').css({'padding-top':0})
+                        }else{
+                            $(this).find('.wz').css({'padding-top':0}).siblings('.img').css({'padding-top':(y-x)/2})
+                        }
+                    }else{
+                        $(this).find('.wz').css({'padding-top':0}).siblings('.img').css({'padding-top':0})
+                    }
+                    var z = $(this).find('a').height();
+                    p3arr.push(z);
+                })
+                        .height(Math.max.apply(Math,p3arr))
+                        .each(function(){
+                            var e = $(this).height();
+                            var q = $(this).find('a').height();
+                            $(this).css({'padding-top':(e-q)/2});
+                        });
+            }
+        });
+    </script>
+</div>
+<div class="xfooter">
+    <div class="inner pd12">
+        <div class="dl_con">
+            <dl class="ft_dl">
+                <dt><a href="/products/a-series.html">交互智能平板</a></dt>
+                <dd>
+                    <ul>
+					<li><a href="/products/a-series.html">A系列</a></li><li><a href="/products/h-series.html">H+系列</a></li><li><a href="/products/s-series.html">S系列</a></li>                    </ul>
+                </dd>
+            </dl>
+            <dl class="ft_dl">
+                <dt><a href="/products/software/easinote.html">应用软件</a></dt>
+                <dd>
+                    <ul>
+					<li><a href="/products/software/easinote.html">白板工具</a></li><li><a href="/products/software/easishow.html">互动展示</a></li><li><a href="/products/software/easisign.html">电子签名</a></li><li><a href="/products/software/seewoclass.html">互动教学</a></li><li><a href="/products/software/seewolink.html">无线互联</a></li><li><a href="/products/software/seeworemote.html">集控管理</a></li><li><a href="/products/software/easivke.html">微课制作</a></li><li><a href="/products/software/easieb.html">音视频直播</a></li><li><a href="/products/software/easimedia.html">信息发布</a></li><li><a href="/products/software/easinet.html">远程教学</a></li>                    </ul>
+                </dd>
+            </dl>
+            <dl class="ft_dl">
+               <dt><a href="/products/sideline/teachmob.html">周边产品</a></dt>
+                <dd>
+                    <ul>
+					<li><a href="/products/sideline/wall-mounting.html">授课宝</a></li><li><a href="/products/sideline/wlamplifier.html">智能笔</a></li><li><a href="/products/sideline/wltran.html">壁挂式展台</a></li><li><a href="/products/sideline/movingfeet.html">折叠式展台</a></li><li><a href="/products/sideline/elecfeet.html">无线传屏</a></li><li><a href="/products/sideline/folding.html">无线功放</a></li><li><a href="/products/sideline/teachmob.html">移动脚架</a></li><li><a href="/products/sideline/smart-pen.html">电动脚架</a></li>                    </ul>
+                </dd>
+            </dl>
+            <dl class="ft_dl">
+				
+                <dt><a href="/solution/classic.html">方案</a></dt>
+                <dd>
+                    <ul>
+                       								<li><a href="/solution/classic.html">经典课堂</a></li>								<li><a href="/solution/interactive.html">互动课堂</a></li>								<li><a href="/solution/remote-classroom.html">远程课程</a></li>								<li><a href="/solution/future.html">未来课堂</a></li>								<li><a href="/solution/intelpre.html">智慧备课</a></li>								<li><a href="/solution/centralized.html">集控管理</a></li><li><a >资源共享</a></li>
+							<li><a >教学分析</a></li>
+							                    </ul>
+                </dd>
+            </dl>
+            <dl class="ft_dl">
+                <dt><a href="#">服务</a></dt>
+                <dd>
+                    <ul>
+						 <li><a href="/service/training.html">培训视频</a></li><li><a href="/service/download.html">下载专区</a></li><li><a href="/service/useguide.html">使用指南</a></li><li><a href="/servicepolicy.html">服务政策</a></li><li><a href="/service/faq.html">常见问题</a></li><li><a href="/service/network.html">服务网络</a></li>                    </ul>
+                </dd>
+            </dl>
+            <dl class="ft_dl">
+                <dt><a href="#">我们</a></dt>
+                <dd>
+                    <ul>
+						<li><a href="/about.html">关于希沃</a></li><li><a href="/news.html">希沃动态</a></li><li><a href="/about/history.html">希沃历程</a></li>                        <li><a href="/Contact/index.html">联系我们</a></li>
+                        <li><a href="http://hr.cvte.com">加入希沃</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="ft_dl">
+                <dt><a >友情链接</a></dt>
+                <dd>
+                    <ul>
+					<li><a href="http://bbs.seewo.com" target="_blank">希沃易+社区</a></li><li><a href="http://cn.cvte.com" target="_blank">CVTE官网</a></li><li><a href="http://hr.cvte.com" target="_blank">CVTE社会招聘</a></li><li><a href="http://campus.cvte.com" target="_blank">CVTE校园招聘</a></li>                    </ul>
+                </dd>
+            </dl>
+        </div>
+        <div class="ft_ewm">
+            <div class="wz">
+                <p class="p1">客服热线</p>
+                <p class="p2">400-186-2505</p>
+                <a class="a1" style="width:160px;">热线时间：8:00-20:00 </a>
+            </div>
+            <div class="ewmcon">
+                <img src="/Public/Home/images/pic149.jpg" alt=""/>
+                <p class="p1">官方微信</p>
+            </div>
+        </div>
+        <div class="ftbottom">
+            <p class="p1">
+                <a href="#" class="blue a2">手机版</a> 丨
+                <a href="http://cn.cvte.com/warning/" target="_blank" class="blue">关于冒充我司发布虚假招聘信息的严正声明</a> | 
+                Copyright © 2015 seewo. All Rights Reserved. Shirui Electronics <a target="_blank"  href="http://www.miitbeian.gov.cn" style="color:#aaa;">粤ICP备12092924号-1</a>
+            </p>
+        </div>
+    </div>
+
+</div>
+<div class="netzhezhao"></div>
+<div class="last_zhezhao"></div>
+<ul class="xkefu">
+    <li class="li1"><a class="gotop" href="javascript:"></a></li>
+   
+    <li class="li2"><a target="_blank" href="tencent://message/?uin=2850859550&Site=0&Menu=yes"></a>
+</li>
+    <li class="li4"><a href="javascript:"></a>
+        <div class="li4model">
+            <p class="p1">视睿科技总部</p>
+            <p class="p2">地址：<span>广东省广州市科学城科珠路192号视睿科技园</span></p>
+            <p class="p2">客服：<span>400-186-2505</span></p>
+            <p class="p2">传真：<span>020-82075579</span></p>
+            <p class="p2">电话：<span>020-82075661</span></p>
+        </div>
+        <script type="text/javascript">
+            $(function(){
+                $('.xkefu .li4').click(function(){
+                        if($(this).hasClass('on')){
+                            $(this).removeClass('on');
+                            $(this).find('.li4model').fadeOut();
+                        }else{
+                            $(this).addClass('on');
+                            $(this).find('.li4model').fadeIn();
+                            $(document).bind("click",function(e){
+                                var target = $(e.target);
+                                if(target.closest(('.li4')).length == 0){
+                                    $('.li4model').fadeOut(700);
+                                    $('.xkefu .li4').removeClass('on');
+                                }
+                            });
+                        }
+                });
+
+                $(window).scroll(function(){
+                    $('.li4model').fadeOut(700);
+                    $('.xkefu .li4').removeClass('on');
+                });
+            })
+        </script>
+    </li>
+</ul>
+
+</body>
+</html>

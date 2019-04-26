@@ -1,0 +1,23 @@
+.xind_radio{background: url("../images/pic7.jpg") no-repeat 50%;background-size: cover;}
+.xind_page4{background: url("../images/pic8.jpg") no-repeat 50%;background-size: cover;}
+
+
+.xkefu{position: fixed;right: 0;top:50%;margin-top: -102px;z-index: 3;}
+.xkefu li a{display: block;width: 50px;height: 50px;background:url("../images/pic160.png") no-repeat;margin-bottom: 1px;}
+.xkefu li .gotop{opacity: 0;transition:opacity 1s;-webkit-transition:opacity 1s;-o-transition:opacity 1s;-moz-transition:opacity 1s;}
+.xkefu li .gotop.on{opacity: 1;}
+.xkefu .li1 a{background-position: 0 0;}
+.xkefu .li2 a{background-position: 0 -51px;}
+.xkefu .li3 a{background-position: 0 -102px;}
+.xkefu .li4 a{background-position: 0 -153px;}
+.xkefu .li1:hover a{background-position: -50px 0;}
+.xkefu .li2:hover a{background-position: -50px -51px;}
+.xkefu .li3:hover a{background-position: -50px -102px;}
+.xkefu .li4:hover a{background-position: -50px -153px;}
+
+
+.xkefu .li4{position: relative;}
+.li4model{position: absolute; display:none;background: #edebeb;border-radius:10px;border: 1px solid #ccc ;right:65px;top:-30px;padding: 10px 20px;width: 310px;box-sizing: border-box;font-size: 14px;line-height:30px;}
+.li4model .p1{color: #4fad1e;}
+.li4model .p2{color: #666;font-size: 12px;line-height: 24px}
+.li4model .p3{color: #FF7002; font-size: 16px;}

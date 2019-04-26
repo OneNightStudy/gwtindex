@@ -1,0 +1,334 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>新闻资讯</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="shortcut icon" href="../favicon.ico">   <!--网站小图标-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="../js/app.js"></script>
+    <script type="text/javascript" src="../js/plug.js"></script>
+    <script type="text/javascript" src="../js/myscript.js"></script>
+    <!--[if IE 8]>
+    <script type="text/javascript" src="../js/ie8_hack.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        var head = document.getElementsByTagName('head')[0];
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        var sUserAgent = navigator.userAgent.toLowerCase();
+        var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+        var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+        var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+        var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+        var bIsAndroid = sUserAgent.match(/android/i) == "android";
+
+        if (bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid) {
+            link.href = "../css/phone.css"
+        } else {
+            link.href = "../css/pc.css";
+        }
+
+        head.appendChild(link);
+    </script>
+</head>
+
+<body>
+
+    <header>
+    <p class="tel"><a class="r" href="tel:400-850-9504"><img src="../picture/phone.png" alt=""><span>全国免费服务热线：</span><span class="telNum">400-850-9504</span></a></p>
+    <h1><a href="../index.html" class="logo l" title="广州非格"><img src="../picture/logo.png" width="100%" alt="广州非格"/></a>
+    </h1>
+    <!--pc-->
+    <ul class="pc_nav">
+        <li><a href="../index.html">首页</a></li>
+        <li ><a href="../product.html">产品中心</a>
+             <div class="erji erji2">
+                <dl class="erji_dl">
+                    <dd><a href="../product.html">非格系列</a></dd><dd><a href="../productSZ.html">数字标牌系列</a></dd><dd><a href="../productZN.html" >智能硬件系列</a></dd>
+                </dl>
+            </div>
+        </li>
+        <li ><a href="newsCompany.html">最新资讯</a>
+             <div class="erji erji2">
+                <dl class="erji_dl">
+                    <dd><a href="newsCompany.html">企业新闻</a></dd><dd><a href="newsIndustry.html">行业新闻</a></dd>
+                </dl>
+            </div>
+        </li>
+        <li ><a href="../case/caseVS.html">行业案例</a>
+             <div class="erji erji2">
+                <dl class="erji_dl">
+                    <dd><a href="../case/caseVS.html">非格案例</a></dd><dd><a href="../case/case.html">行业案例</a></dd>
+                </dl>
+            </div>
+        </li>
+        <li ><a href="../service/service.html">服务支持</a>
+             <div class="erji erji2">
+                <dl class="erji_dl">
+                    <dd><a href="../service/service.html">非格服务</a></dd><dd><a href="../service/hardware.html">硬件定制</a></dd><dd><a href="../service/software.html">软件定制</a></dd>
+                    <dd><a href="../service/questions.html">常见问题</a></dd><dd><a href="../service/afterService.html">售后服务</a></dd>
+                </dl>
+            </div>
+        </li>
+        <li ><a href="../company.html">关于我们</a>
+             <div class="erji erji2">
+                <dl class="erji_dl">
+                    <dd><a href="../company.html">公司简介</a></dd><dd><a href="../summary.html">企业文化</a></dd><dd><a href="../address.html">联系我们</a></dd>
+                </dl>
+            </div>
+        </li>
+    </ul>
+    <!--pc-->
+
+    <!--phone-->
+    <dl class="phone_side r">
+        <dt><a href="javascript:;"><img src="../picture/pic17.png" width="100%" alt=""/></a></dt>
+        <dd>
+            <div id="cmfrom">
+                <div class="but">非格</div>
+            </div>
+            <div class="phone_navbar">
+                <dl>
+                    <dt>
+                        <a href="../index.html">首页</a>
+                    </dt>
+                </dl>
+                <dl>
+                    <dt>
+                        <i></i>
+                        <a href="../product.html">产品</a>
+                    </dt>
+                    <dd>
+                     <a href="../product.html">非格系列</a>
+                     <a href="../productSZ.html">数字标牌系列</a>
+                     <a href="../productZN.html" >智能硬件系列</a>
+                    </dd>
+                </dl>
+                 <dl>
+                    <dt>
+                        <i></i>
+                        <a href="newsCompany.html">资讯</a>
+                    </dt>
+                    <dd>
+                     <a href="newsIndustry.html">行业资讯</a>
+                     <a href="newsCompany.html">企业资讯</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <i></i>
+                        <a href="../case/caseVS.html">案例</a>
+                    </dt>
+                    <dd>
+                        <a href="../case/caseVS.html">非格案例</a>
+                        <a href="../case/case.html">行业案例</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <i></i>
+                        <a href="../service/service.html">服务</a>
+                    </dt>
+
+
+                    <dd>
+                         <a href="../service/service.html">非格服务</a>
+                         <a href="../service/hardware.html">硬件定制</a>
+                         <a href="../service/software.html">软件定制</a>
+                         <a href="../service/questions.html">常见问题</a>
+                         <a href="../service/afterService.html">售后服务</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <i></i>
+                        <a href="../company.html">我们</a>
+                    </dt>
+                    <dd>
+                        <a href="../company.html">公司简介</a><a href="../summary.html">企业文化</a><a href="../address.html">联系我们</a>
+                    </dd>
+                </dl>
+            </div>
+        </dd>
+    </dl>
+    <!--phone-->
+
+</header>
+
+
+<div class="ny_con">
+
+    <div class="ny_nav">
+        <div id="wrapper" class="max1200">
+            <div id="scroller">
+                <ul class="mbx">
+                    <li><a href="../index.html">首页</a></li> <li>></li><li><a href='newsCompany.html'>最新资讯</a></li><li>></li><li class='on'><a href='newsCompany.html'>企业新闻</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="news_inner caseContent">
+        <p class="p2">广州非格自动售货机稳定性强 项目投资首选</p>
+        <h2 class="p10">2016年05月26日 14:09</h2>
+    </div>
+    <div class="caseContent">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 自助售卖行业是紧跟当代人的需求而诞生的新型行业，市场需求是强烈的，自动售货机是能根据投入的钱币自动付货的机器。自动售货机是商业自动化的常用设备，它不受时间、地点的限制，能节省人力、方便交易。是一种全新的商业零售形式，又被称为24小时营业的微型超市，“广州非格”得名应运而生。“广州非格”自品牌诞生以来，凭借强大的研发技术，自主开发出“非格”系列，打造出各种独特的自主售货机设备，更独立开发出优秀的后台配合使用，着实为广大客户带来更好产品，受到市场的一致好评<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;广州非格电子有限公司专注于自助售卖行业，为广大群众带来了自助售卖设备智能化升级服务，为客户提高极大的保障。凭借完善的产品线，且具备多线路、高稳定、可控性强、故障自检测以及行业首创安卓智能操控系统，同时加上设备模块化设计，为广大客户提供自动售货机操作、管理、智能、安全以及用户体验等问题提供了自动售货机领域的研发、生产，并拥有完美的运维能力，“非格”系列给无数客户，提供了一个好的平台。<br>
+<div style="text-align:center; padding:30px;"><img alt="" src="../picture/newDetail-1.jpg"></div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“广州非格”自动售货设备制作精良，所有配件均采用国际领先技术制造，并且经过反复测试无任何不良情况发生，顾客可以放心使用，合作商可以自行维护设备，大大避免了由于设备故障影响到经营的情况。公司作出承诺，一年保修、终身维护。公司针对自动售货机操作、管理、智能、安全以及用户体验等问题，利用安卓智能操控系统、故障自检测系统以及CFP云服务管理系统给老式按键式自动售货机机进行了升级、改造并加以完善。<br>
+<div style="text-align:center; padding:30px;"><img alt="" src="../picture/newDetail-2.jpg"></div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“广州非格”自动售货机，一个实力品牌，为业内提供更专业、先进的自动售货机操作系统、云服务管理平台等产品。作为时尚的操作平台，给顾客购买产品带来便捷和省心，通过指尖来操作带来的惊喜。独特的无人售货机，自带着背景音乐播放和视频播放功能，能让客户可通过图片和文字进行详细的了解和随心选货。流行的在线支付方式，拒绝收取任何一张假币，保护商家的利益不受损害，后台监控更为您的店面经营保驾护航。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“广州非格”确实是项目投资，小额经营的首选。<br>
+	<div style="text-align:center; padding:30px;"><p><img alt="" src="../images/pic161.jpg" style="width:258px;"></p><span>扫描二维码关注官方微信</span></div>
+
+                    <div class="sxy"><span>上一篇：<a href="javascript:;">没有了</a> </span>下一篇：<a href="newsCompany-2.html">手机支付成“广州非格”自动售货机标准组成</a> </div>
+    </div>
+</div>
+
+<div class="xfooter">
+    <div class="inner pd12">
+        <div class="dl_con">
+            <dl class="ft_dl">
+               <dt><a href="../product.html">产品中心</a></dt>
+                <dd>
+                    <ul>
+                    <li><a href="../product.html">非格系列</a></li><li><a href="../productSZ.html">数字标牌系列</a></li><li><a href="../productZN.html" >智能硬件系列</a></li> 
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="ft_dl">
+                <dt><a href="newsCompany.html">最新资讯</a></dt>
+                <dd>
+                    <ul>
+                     <li><a href="newsCompany.html">企业新闻</a></li>
+                     <li><a href="newsIndustry.html">行业新闻</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="ft_dl">
+                <dt><a href="../case/caseVS.html">行业案例</a></dt>
+                <dd>
+                    <ul>
+                     <li><a href="../case/caseVS.html">非格案例</a></li>
+                     <li><a href="../case/case.html">行业案例</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="ft_dl">
+                <dt><a href="javascript:;">服务支持</a></dt>
+                <dd>
+                    <ul>
+                         <li><a href="../service/service.html">非格服务</a></li>
+                         <li><a href="../service/hardware.html">硬件定制</a></li>
+                         <li><a href="../service/software.html">软件定制</a></li>
+                         <li><a href="../service/questions.html">常见问题</a></li>
+                         <li><a href="../service/afterService.html">售后服务</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="ft_dl">
+                <dt><a href="javascript:;">后台管理</a></dt>
+                <dd>
+                    <ul>
+                         <li><a href="https://vi-stores.com/fl">GB管理</a></li>
+                         <li><a href="https://vi-stores.com/vs">非格管理</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="ft_dl">
+                <dt><a href="javascript:;">我们</a></dt>
+                <dd>
+                    <ul>
+                        <li><a href="../company.html">公司简介</a></li><li><a href="../summary.html">企业文化</a></li><li><a href="../address.html">联系我们</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            </div>
+        <div class="ft_ewm">
+            <div class="wz">
+                <p class="p1">客服热线:</p>
+                <p class="p2">400-850-9504</p>
+                <a class="a1" href="http://wpa.qq.com/msgrd?V=3&uin=310182341&Site=广州非格&Menu=yes" target="_blank">进入QQ在线咨询</a>
+            </div>
+            <div class="ewmcon">
+                <img src="../images/pic161.jpg" alt=""/>
+                <p class="p1">官方微信</p>
+            </div>
+            
+        </div>
+        <div class="ftbottom">
+            <p class="p1">
+                Copy@2003 - 2016 ALL rights reversed. <a target="_blank"  href="http://www.miitbeian.gov.cn" style="color:#aaa;">广州非格电子有限公司</a> | @2016 WeiChao 粤ICP备15075539号-1
+            </p>
+        </div>
+    </div>
+</div>
+<div class="netzhezhao"></div>
+
+<div class="last_zhezhao"></div>
+<ul class="xkefu">
+    <li class="li1"><a class="gotop" href="javascript:"></a></li>
+    <li class="li2"><a href="../company.html"></a></li>
+    <li class="li3"><a href="http://wpa.qq.com/msgrd?V=3&uin=310182341&Site=广州非格&Menu=yes" target="_blank"></a></li>
+    <li class="li4"><a href="javascript:"></a>
+        <div class="li4model">
+            <p class="p1">广州非格电子有限公司</p>
+            <p class="p2">地址：<span>广州市黄埔区云埔工业区云埔一路29号</span></p>
+            <p class="p2">400热线: <span class="p3">400-850-9504</span></p>
+        </div>
+        <script type="text/javascript">
+            $(function(){
+                $('.xkefu .li4').click(function(){
+                        if($(this).hasClass('on')){
+                            $(this).removeClass('on');
+                            $(this).find('.li4model').fadeOut();
+                        }else{
+                            $(this).addClass('on');
+                            $(this).find('.li4model').fadeIn();
+                            $(document).bind("click",function(e){
+                                var target = $(e.target);
+                                if(target.closest(('.li4')).length == 0){
+                                    $('.li4model').fadeOut(700);
+                                    $('.xkefu .li4').removeClass('on');
+                                }
+                            });
+                        }
+                });
+
+                var checked = 1;
+                $(window).scroll(function(){
+                    $('.li4model').fadeOut(700);
+                    $('.xkefu .li4').removeClass('on');
+                    if(checked){
+                        $(".dialog").stop().animate({bottom: 0}, 600);
+                        $(".dialog .close").show();
+                        checked = 0;
+                    }
+                });
+                $(".dialog .close").click(function(){
+                    $(".dialog").stop().animate({bottom: -130}, 600, function(){
+                        $(".dialog .close").hide();
+                    });
+                });
+                $(".dialog .mess").click(function(){
+                    $(".dialog").stop().animate({bottom: 0}, 600);
+                    $(".dialog .close").show();
+                });
+             })
+        </script>
+    </li>
+</ul>
+<div class="dialog">
+    <div class="close">×</div>
+    <a href="http://wpa.qq.com/msgrd?V=3&uin=310182341&Site=广州非格&Menu=yes" target="_blank">
+        <img src="../picture/qq.png" class="mess" alt="在线咨询">
+        <span class="a1">在线客服</span>
+    </a>
+</div>
+</body>
+</html>

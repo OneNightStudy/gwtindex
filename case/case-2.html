@@ -1,0 +1,426 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>行业案例</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="shortcut icon" href="../favicon.ico">   <!--网站小图标-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="../js/app.js"></script>
+    <script type="text/javascript" src="../js/plug.js"></script>
+    <script type="text/javascript" src="../js/myscript.js"></script>
+    <!--[if IE 8]>
+    <script type="text/javascript" src="../js/ie8_hack.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        var head = document.getElementsByTagName('head')[0];
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        var sUserAgent = navigator.userAgent.toLowerCase();
+        var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+        var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+        var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+        var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+        var bIsAndroid = sUserAgent.match(/android/i) == "android";
+
+        if (bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid) {
+            link.href = "../css/phone.css"
+        } else {
+            link.href = "../css/pc.css";
+        }
+
+        head.appendChild(link);
+    </script>
+</head>
+
+<body>
+
+    <header>
+    <p class="tel"><a class="r" href="tel:400-850-9504"><img src="../picture/phone.png" alt=""><span>全国免费服务热线：</span><span class="telNum">400-850-9504</span></a></p>
+    <h1><a href="../index.html" class="logo l" title="广州非格"><img src="../picture/logo.png" width="100%" alt="广州非格"/></a>
+    </h1>
+    <!--pc-->
+    <ul class="pc_nav">
+        <li><a href="../index.html">首页</a></li>
+        <li ><a href="../product.html">产品中心</a>
+             <div class="erji erji2">
+                <dl class="erji_dl">
+                    <dd><a href="../product.html">非格系列</a></dd><dd><a href="../productSZ.html">数字标牌系列</a></dd><dd><a href="../productZN.html" >智能硬件系列</a></dd>
+                </dl>
+            </div>
+        </li>
+        <li ><a href="../news/newsCompany.html">最新资讯</a>
+             <div class="erji erji2">
+                <dl class="erji_dl">
+                    <dd><a href="../news/newsCompany.html">企业新闻</a></dd><dd><a href="../news/newsIndustry.html">行业新闻</a></dd>
+                </dl>
+            </div>
+        </li>
+        <li ><a href="caseVS.html">行业案例</a>
+             <div class="erji erji2">
+                <dl class="erji_dl">
+                    <dd><a href="caseVS.html">非格案例</a></dd><dd><a href="case.html">行业案例</a></dd>
+                </dl>
+            </div>
+        </li>
+        <li ><a href="../service/service.html">服务支持</a>
+             <div class="erji erji2">
+                <dl class="erji_dl">
+                    <dd><a href="../service/service.html">非格服务</a></dd><dd><a href="../service/hardware.html">硬件定制</a></dd><dd><a href="../service/software.html">软件定制</a></dd>
+                    <dd><a href="../service/questions.html">常见问题</a></dd><dd><a href="../service/afterService.html">售后服务</a></dd>
+                </dl>
+            </div>
+        </li>
+        <li ><a href="../company.html">关于我们</a>
+             <div class="erji erji2">
+                <dl class="erji_dl">
+                    <dd><a href="../company.html">公司简介</a></dd><dd><a href="../summary.html">企业文化</a></dd><dd><a href="../address.html">联系我们</a></dd>
+                </dl>
+            </div>
+        </li>
+    </ul>
+    <!--pc-->
+
+    <!--phone-->
+    <dl class="phone_side r">
+        <dt><a href="javascript:;"><img src="../picture/pic17.png" width="100%" alt=""/></a></dt>
+        <dd>
+            <div id="cmfrom">
+                <div class="but">非格</div>
+            </div>
+            <div class="phone_navbar">
+                <dl>
+                    <dt>
+                        <a href="../index.html">首页</a>
+                    </dt>
+                </dl>
+                <dl>
+                    <dt>
+                        <i></i>
+                        <a href="../product.html">产品</a>
+                    </dt>
+                    <dd>
+                     <a href="../product.html">非格系列</a>
+                     <a href="../productSZ.html">数字标牌系列</a>
+                     <a href="../productZN.html" >智能硬件系列</a>
+                    </dd>
+                </dl>
+                 <dl>
+                    <dt>
+                        <i></i>
+                        <a href="../news/newsCompany.html">资讯</a>
+                    </dt>
+                    <dd>
+                     <a href="../news/newsIndustry.html">行业资讯</a>
+                     <a href="../news/newsCompany.html">企业资讯</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <i></i>
+                        <a href="caseVS.html">案例</a>
+                    </dt>
+                    <dd>
+                        <a href="caseVS.html">非格案例</a>
+                        <a href="case.html">行业案例</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <i></i>
+                        <a href="../service/service.html">服务</a>
+                    </dt>
+
+
+                    <dd>
+                         <a href="../service/service.html">非格服务</a>
+                         <a href="../service/hardware.html">硬件定制</a>
+                         <a href="../service/software.html">软件定制</a>
+                         <a href="../service/questions.html">常见问题</a>
+                         <a href="../service/afterService.html">售后服务</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <i></i>
+                        <a href="../company.html">我们</a>
+                    </dt>
+                    <dd>
+                        <a href="../company.html">公司简介</a><a href="../summary.html">企业文化</a><a href="../address.html">联系我们</a>
+                    </dd>
+                </dl>
+            </div>
+        </dd>
+    </dl>
+    <!--phone-->
+
+</header>
+
+
+<div class="ny_con">
+
+    <!-- <div class="slider xind_banner">
+        <div class="image"><a  href="#"><img width="100%" src="../picture/news-1.jpg"/></a></div>
+        <div class="image"><a  href="#"><img width="100%" src="../picture/news-2.jpg"/></a></div>
+    </div> -->
+
+    <div class="ny_nav">
+        <div id="wrapper" class="max1200">
+            <div id="scroller">
+                <ul class="mbx">
+                    <li><a href="../index.html">首页</a></li> <li>></li><li><a href='case.html'>行业案例</a></li> <li>></li>
+                    <li class="on"><a href="" class="nowTitle"></a></li>
+                </ul>
+            </div>
+            <script type="text/javascript">
+                $(window).load(function(){
+                    loaded ();
+                });
+                var myScroll;
+                function loaded () {
+                    myScroll = new IScroll('#wrapper', { scrollX: true, scrollY: false});
+                }
+//                document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+</script>
+</div>
+</div>
+<div class="bggrey">
+    <div class="max1200 ny_main">
+        <dl class="leftnav">
+            <dt class="on">
+                <em> > </em>
+                行业案例
+            </dt>
+            <dd>
+                <div class="dt">
+                    <a class="link" href="caseVS.html">非格案例</a>
+                </div>
+            </dd>
+            <dd class="on">
+                <div class="dt">
+                    <a class="link" href="case.html">行业案例</a>
+                </div>
+            </dd>
+        </dl>
+        <div class="rightmain">
+            <div id="liability2" class="liability liability2">
+                <div class="bd">
+                    <ul>
+                        <li>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hd">
+                    <ul></ul>
+                </div>
+            </div>
+            <div class="news_inner caseContent">
+                <p class="p2"></p>
+                <h2 class="p10"></h2>
+            </div>                
+            <div class="seewo_us rightmain_Pd">
+                &nbsp; &nbsp; &nbsp; &nbsp;农超对接是指农产品基地直接向超市进行供应的新型流通方式，主要是为优质农产品进入超市搭建平台。“农超对接”的本质是将现代流通方式引向广阔农村，将千家万户的小生产与千变万化的大市场对接起来，缩短供应链，构建市场经济条件下的产销一体化链条，实现商家、农民、消费者共赢的局面。农超对接自诞生以来为提升国民经济和改善农民收入及提升居民生活水平做出了重要的贡献，并且目前仍在发挥着重要的社会作用。然而随着经济大环境和消费市场的改变，特别是优质农产品品牌化的趋势下，农超对接的作用和影响也出现了一些变化，一些新兴的模式正逐步兴起，引发了消费市场的关注。<br />
+                <div style="text-align:center; padding:30px;"><img alt="" src="../picture/caseDetail-4.jpg"></div>
+                &nbsp; &nbsp; &nbsp; &nbsp;传统自动售货机在人们的印象中常常仅停留于饮料和小食品，近两年随着自动售货机制造技术的升级换代，现在的自动售货模式已基本摆脱了商品销售品类的限制，除传统的饮料和小食品外，目前已实现多个领域的跨接，包含生鲜、成人用品、盒饭、化妆品、服装等等，其中尤以生鲜最为引人关注！目前多地已出现了生鲜（农）+自动售货机+社区的业务发展模式。而在这其中，上海更是走在了前列，率先规模化走出了“农产品+自动售货机+社区”的模式，并已有数万居民享受到了该项服务。<br />
+                <div class="caseHeader">从农超对接到农“机”对接，虽然只是简单的一字之差，但细究中间的变化，还是有着本质的差别。</div>
+                &nbsp; &nbsp; &nbsp; &nbsp;<span class="caseTitle">变化1：</span>农超对接主要缩短的是农产品至超市间的供应距离，减少了中间环节，但从超市至消费者这一环节仍然没有减少。农“机”对接则更为彻底，直接将农产品和消费者在家门口实现了对接，更进一步缩短了产品的供应链，这对进一步控制农产品价格有着重要意义。<br />
+                &nbsp; &nbsp; &nbsp; &nbsp;<span class="caseTitle">变化2：</span>服务距离，农超对接消费者仍需前往若干公里外的超市方可享受到相关产品。农“机”对接进入社区后，则可直接在家门口获取。从服务距离上有了明显的缩短。<br />
+                &nbsp; &nbsp; &nbsp; &nbsp;<span class="caseTitle">变化3：</span>服务时间，农超对接有时间限制，农”机“对接后，只要机器在工作，相关服务即可实现24小时的延续服务。这对于一些城市快节奏生活的白领而言无疑是最有价值的服务。<br />
+                &nbsp; &nbsp; &nbsp; &nbsp;<span class="caseTitle">变化4：</span>农产品小包装化，周转更快，更为新鲜和安全。以大米为例，传统大米最少在超市为5公斤装，如是单身，一袋大米通常要吃很久。但以通过自动售货机销售的米砖可根据自身需求，选择份量，甚至可实现每天购买，做到日日吃新鲜！蔬菜则更为明显，以往单身去买些蔬菜，多不好拿，少了不敢买，通过类似模式则完全可以摆脱这种尴尬。<br />
+                &nbsp; &nbsp; &nbsp; &nbsp;<span class="caseTitle">变化5：</span>渠道自主权，农“机”对接较农超对接在渠道方面的自主权显然较之前要大的多，无论是位置，产品宣传，促销形式，还是定价等，利于打造农产品优质品牌。<br />
+                &nbsp; &nbsp; &nbsp; &nbsp;<span class="caseTitle">变化6：</span>对接互联网，可进一步提供更为优质的多样化服务，如线上预定，线下提取等。同时可在此过程中积累农产品销售、消费大数据，利于后续根据市场调整农产品生产计划。<br />
+                <div class="caseHeader">农“机”对接，可操作性有多强？设备究竟是否真的可支持各类农产品销售？</div>
+                &nbsp; &nbsp; &nbsp; &nbsp;农“机”对接根据前的情况，设备已基本可满足市场需求，目前以天津雷云峰和江苏白雪等为代表的一批厂商在复合货道方面都已经有了非常多的技术积累。从袋装到盒装，从大包装、小包装再到瓶装、桶装，相对应的产品销售均可轻松实现，特殊设置下，甚至活虾、活蟹亦可满足。<br />
+                <div class="sxy"><span>上一篇：<a href=""></a> </span><br><span>下一篇：<a href=""></a> </span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function(){
+        $('.xind_banner').slick({
+            dots: true,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            speed: 500,
+        });
+
+
+    var onIndex = window.location.href.split("-")[2].split(".")[0] - 1;     //获取当前case-x中x的数值
+    $.getJSON("../data.json" , function(data) {
+        $(".nowTitle").attr("href",data.case[onIndex].url).html(data.case[onIndex].title);
+        $(".rightmain .p2").html(data.case[onIndex].title);
+        $(".rightmain .p10").html(data.case[onIndex].time);
+        $.each(data.case,function (i){
+            $(".caseUl").append('<li><a href="'+this.url+'">'+this.title+'</a></li>')
+            $(".caseUl li").eq(onIndex).addClass('on')
+        });
+        $.each(data.caseVS,function (i){
+            $(".caseVSUl").append('<li><a href="'+this.url+'">'+this.title+'</a></li>')
+        });
+        switch(onIndex)
+        {
+            case 0:
+            $(".sxy a").eq(0).attr("href","javascript:;").html("没有了");
+            $(".sxy a").eq(1).attr("href",data.case[onIndex+1].url).html(data.case[onIndex+1].title);
+            break;
+            case data.case.length:
+            $(".sxy a").eq(0).attr("href",data.case[onIndex-1].url).html(data.case[onIndex-1].title);
+            $(".sxy a").eq(1).attr("href","javascript:;").html("没有了");
+            break;
+            default:
+            $(".sxy a").eq(0).attr("href",data.case[onIndex-1].url).html(data.case[onIndex-1].title);
+            $(".sxy a").eq(1).attr("href",data.case[onIndex+1].url).html(data.case[onIndex+1].title);
+        }
+    });
+
+})
+</script>
+
+<div class="xfooter">
+    <div class="inner pd12">
+        <div class="dl_con">
+            <dl class="ft_dl">
+               <dt><a href="../product.html">产品中心</a></dt>
+                <dd>
+                    <ul>
+                    <li><a href="../product.html">非格系列</a></li><li><a href="../productSZ.html">数字标牌系列</a></li><li><a href="../productZN.html" >智能硬件系列</a></li> 
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="ft_dl">
+                <dt><a href="../news/newsCompany.html">最新资讯</a></dt>
+                <dd>
+                    <ul>
+                     <li><a href="../news/newsCompany.html">企业新闻</a></li>
+                     <li><a href="../news/newsIndustry.html">行业新闻</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="ft_dl">
+                <dt><a href="caseVS.html">行业案例</a></dt>
+                <dd>
+                    <ul>
+                     <li><a href="caseVS.html">非格案例</a></li>
+                     <li><a href="case.html">行业案例</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="ft_dl">
+                <dt><a href="javascript:;">服务支持</a></dt>
+                <dd>
+                    <ul>
+                         <li><a href="../service/service.html">非格服务</a></li>
+                         <li><a href="../service/hardware.html">硬件定制</a></li>
+                         <li><a href="../service/software.html">软件定制</a></li>
+                         <li><a href="../service/questions.html">常见问题</a></li>
+                         <li><a href="../service/afterService.html">售后服务</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="ft_dl">
+                <dt><a href="javascript:;">后台管理</a></dt>
+                <dd>
+                    <ul>
+                         <li><a href="https://vi-stores.com/fl">GB管理</a></li>
+                         <li><a href="https://vi-stores.com/vs">非格管理</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="ft_dl">
+                <dt><a href="javascript:;">我们</a></dt>
+                <dd>
+                    <ul>
+                        <li><a href="../company.html">公司简介</a></li><li><a href="../summary.html">企业文化</a></li><li><a href="../address.html">联系我们</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            </div>
+        <div class="ft_ewm">
+            <div class="wz">
+                <p class="p1">客服热线:</p>
+                <p class="p2">400-850-9504</p>
+                <a class="a1" href="http://wpa.qq.com/msgrd?V=3&uin=310182341&Site=广州非格&Menu=yes" target="_blank">进入QQ在线咨询</a>
+            </div>
+            <div class="ewmcon">
+                <img src="../images/pic161.jpg" alt=""/>
+                <p class="p1">官方微信</p>
+            </div>
+            
+        </div>
+        <div class="ftbottom">
+            <p class="p1">
+                Copy@2003 - 2016 ALL rights reversed. <a target="_blank"  href="http://www.miitbeian.gov.cn" style="color:#aaa;">广州非格电子有限公司</a> | @2016 WeiChao 粤ICP备15075539号-1
+            </p>
+        </div>
+    </div>
+</div>
+<div class="netzhezhao"></div>
+<div class="last_zhezhao"></div>
+<ul class="xkefu">
+    <li class="li1"><a class="gotop" href="javascript:"></a></li>
+    <li class="li2"><a href="../company.html"></a></li>
+    <li class="li3"><a href="http://wpa.qq.com/msgrd?V=3&uin=310182341&Site=广州非格&Menu=yes" target="_blank"></a></li>
+    <li class="li4"><a href="javascript:"></a>
+        <div class="li4model">
+            <p class="p1">广州非格电子有限公司</p>
+            <p class="p2">地址：<span>广州市黄埔区云埔工业区云埔一路29号</span></p>
+            <p class="p2">400热线: <span class="p3">400-850-9504</span></p>
+        </div>
+        <script type="text/javascript">
+            $(function(){
+                $('.xkefu .li4').click(function(){
+                    if($(this).hasClass('on')){
+                        $(this).removeClass('on');
+                        $(this).find('.li4model').fadeOut();
+                    }else{
+                        $(this).addClass('on');
+                        $(this).find('.li4model').fadeIn();
+                        $(document).bind("click",function(e){
+                            var target = $(e.target);
+                            if(target.closest(('.li4')).length == 0){
+                                $('.li4model').fadeOut(700);
+                                $('.xkefu .li4').removeClass('on');
+                            }
+                        });
+                    }
+                });
+
+                var checked = 1;
+                $(window).scroll(function(){
+                    $('.li4model').fadeOut(700);
+                    $('.xkefu .li4').removeClass('on');
+                    if(checked){
+                        $(".dialog").stop().animate({bottom: 0}, 600);
+                        $(".dialog .close").show();
+                        checked = 0;
+                    }
+                });
+                $(".dialog .close").click(function(){
+                    $(".dialog").stop().animate({bottom: -130}, 600, function(){
+                        $(".dialog .close").hide();
+                    });
+                });
+                $(".dialog .mess").click(function(){
+                    $(".dialog").stop().animate({bottom: 0}, 600);
+                    $(".dialog .close").show();
+                });
+             })
+        </script>
+    </li>
+</ul>
+<div class="dialog">
+    <div class="close">×</div>
+    <a href="http://wpa.qq.com/msgrd?V=3&uin=310182341&Site=广州非格&Menu=yes" target="_blank">
+        <img src="../picture/qq.png" class="mess" alt="在线咨询">
+        <span class="a1">在线客服</span>
+    </a>
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+.product{
+	width:100%;
+	height:auto;
+	background:white;
+}
+
+.product table{
+	width:100%;
+	height:200px;
+}
+
+.product .item{
+	width:100%;
+	height:500px;
+}
+.item img{
+	width:450px;
+	margin:25px;
+}
+.item .title{
+	color:#000000;
+	font-size:18px;
+	font-weight:bold;
+}
+.item .desc{
+	margin-top:50px;
+	margin-right:15px;
+}
+.item-img{
+	width:40%;
+}
+.item-desc{
+	width:60%;
+}
+.item-two{
+	background:#F0F0F0;
+}
+.item-two .desc{
+	margin-left:80px;
+}

@@ -1,0 +1,52 @@
+{
+    "newsIndustry":[
+        {"title":"L型经济走势蔓延至自动售货机行业，“轻零售”如何突围走出V字型？","time":"2016年07月01日 13:22","url":"newsIndustry-1.html"},
+        {"title":"断崖边上的救命绳---浅谈“差异化”对自动售货机运营企业的重要性！","time":"2016年02月25日 10:22","url":"newsIndustry-2.html"},
+        {"title":"3年20亿，娃哈哈酝酿本年度国内自动售货机领域“重量级”行业风暴","time":"2016年01月20日 18:56","url":"newsIndustry-3.html"},
+        {"title":"江苏自动售货机遭遇假币侵袭，神秘“5毛”引发高度关注！","time":"2015年12月18日 09:21","url":"newsIndustry-4.html"},
+        {"title":"调味品上自动售货机","time":"2015年11月17日 09:42","url":"newsIndustry-5.html"}
+    ],
+    "newsCompany":[
+        {"title":"“广州非格”自动售货机稳定性强 项目投资首选","time":"2016年05月26日 14:09","url":"newsCompany-1.html"},
+        {"title":"手机支付成“广州非格”自动售货机标准组成","time":"2016年05月25日 10:49","url":"newsCompany-2.html"},
+        {"title":"“广州非格”自动售货机投资商机分析","time":"2016年05月20日 10:56","url":"newsCompany-3.html"},
+        {"title":"“广州非格”专注的运营服务核心","time":"2016年05月18日 09:37","url":"newsCompany-4.html"},
+        {"title":"浅析自动售货机常见的三种支付方式","time":"2016年05月17日 09:44","url":"newsCompany-5.html"}
+    ],
+    "case":[
+        {"title":"当服装业巨头遇上自动售货机！","time":"2016年06月16日 14:02","url":"case-1.html"},
+        {"title":"农超对接已过时，农“机”对接成新热点，“自动售货机+农产品+社区”浪潮将起！","time":"2016年05月15日 11:49","url":"case-2.html"},
+        {"title":"农夫智能机昨露“真容”，饮料企业自贩2.0时代来临","time":"2016年05月10日 13:58","url":"case-3.html"},
+        {"title":"鲜榨橙汁自动售货机在中国自助服务展上遭热捧","time":"2016年04月18日 09:27","url":"case-4.html"},
+        {"title":"带您读懂日本自动贩卖机有多强大","time":"2016年01月17日 09:42","url":"case-5.html"}
+    ],
+    "caseVS":[
+        {"title":"知道您下班晚买不到菜 非格进驻社区帮到您","time":"2016年06月13日 14:01","url":"caseVS-1.html"},
+        {"title":"非格饮料自动售货机简约而不简单","time":"2016年07月13日 11:36","url":"caseVS-2.html"},
+        {"title":"耳机这个卖法真聪明","time":"2016年08月01日 08:31","url":"caseVS-3.html"},
+        {"title":"非格耳机自动售卖机走进番禺","time":"2016年08月02日 10:31","url":"caseVS-4.html"},
+        {"title":"非格自动卖菜机突现广州越秀区","time":"2016年08月03日 10:32","url":"caseVS-5.html"},
+        {"title":"耳机自动售货机又再进驻某电影院啦","time":"2016年08月06日 11:30","url":"caseVS-6.html"},
+        {"title":"耳机自动售货机再度抢占大学城","time":"2016年08月08日 12:16","url":"caseVS-7.html"},
+        {"title":"合肥客户利用自动卖菜机开启未来生鲜之路","time":"2016年11月09日 10:36","url":"caseVS-8.html"}
+    ],
+    "product":[
+        {"title":"多媒体非格","src":"product-1.jpg"},
+        {"title":"简约式非格","src":"product-2.jpg"},
+        {"title":"智能药品机","src":"product-3.jpg"},
+        {"title":"智能生鲜非格","src":"product-4.jpg"},
+        {"title":"智能物联网非格","src":"product-5.jpg"},
+        {"title":"智能成人用品非格","src":"product-6.jpg"},
+        {"title":"智能透明屏非格","src":"product-7.jpg"},
+        {"title":"智能果汁机","src":"product-8.jpg"},
+        {"title":"智能回收机","src":"product-9.jpg"}
+    ],
+    "productSZ":[
+        {"title":"会议一体机","src":"productSZ-1.jpg"},
+        {"title":"落地式终端机","src":"productSZ-2.jpg"},
+        {"title":"壁挂式终端机","src":"productSZ-3.jpg"}
+    ],
+    "productZN":[
+        {"title":"WiFi媒体网关","src":"productZN-1.jpg"}
+    ]
+}

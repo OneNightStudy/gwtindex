@@ -1,0 +1,490 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>公司简介</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="shortcut icon" href="favicon.ico">   <!--网站小图标-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/plug.js"></script>
+    <script type="text/javascript" src="js/myscript.js"></script>
+    <!--[if IE 8]>
+    <script type="text/javascript" src="js/ie8_hack.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        var head = document.getElementsByTagName('head')[0];
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        var sUserAgent = navigator.userAgent.toLowerCase();
+        var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+        var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+        var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+        var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+        var bIsAndroid = sUserAgent.match(/android/i) == "android";
+
+        if (bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid) {
+            link.href = "css/phone.css"
+        } else {
+            link.href = "css/pc.css";
+        }
+
+        head.appendChild(link);
+    </script>
+    <!--引用百度地图API-->
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+    <style type="text/css">
+    .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap;}
+    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word;}
+    </style>
+</head>
+
+<body>
+
+<header>
+    <p class="tel"><a class="r" href="tel:400-850-9504"><img src="picture/phone.png" alt=""><span>全国服务热线：</span><span class="telNum">17329931126</span></a></p>
+    <h1><a href="javascript:;" class="logo l" title="广州非格"><img src="picture/logo.png" width="100%" alt="广州非格"/></a>
+    </h1>
+    <!--pc-->
+    <ul class="pc_nav">
+        <li><a href="index.html">首页</a></li>
+        <li ><a href="product.html">产品中心</a>
+             <div class="erji erji2">
+                <dl class="erji_dl">
+                    <dd><a href="product.html">非格系列</a></dd><dd><a href="productSZ.html">数字标牌系列</a></dd><dd><a href="productZN.html" >智能硬件系列</a></dd>
+                </dl>
+            </div>
+        </li>
+        <li ><a href="news/newsCompany.html">最新资讯</a>
+             <div class="erji erji2">
+                <dl class="erji_dl">
+                    <dd><a href="news/newsCompany.html">企业新闻</a></dd><dd><a href="news/newsIndustry.html">行业新闻</a></dd>
+                </dl>
+            </div>
+        </li>
+        <li ><a href="case/caseVS.html">行业案例</a>
+             <div class="erji erji2">
+                <dl class="erji_dl">
+                    <dd><a href="case/caseVS.html">公司案例</a></dd><dd><a href="case/case.html">行业案例</a></dd>
+                </dl>
+            </div>
+        </li>
+         <li ><a href="service/service.html">服务支持</a>
+             <div class="erji erji2">
+                <dl class="erji_dl">
+                    <dd><a href="service/service.html">公司服务</a></dd><dd><a href="service/hardware.html">硬件定制</a></dd><dd><a href="service/software.html">软件定制</a></dd>
+                    <dd><a href="service/questions.html">常见问题</a></dd><dd><a href="service/afterService.html">售后服务</a></dd>
+                </dl>
+            </div>
+        </li>
+
+        <li ><a href="company.html">关于我们</a>
+             <div class="erji erji2">
+                <dl class="erji_dl">
+                    <dd><a href="company.html">公司简介</a></dd><dd><a href="summary.html">企业文化</a></dd><dd><a href="address.html">联系我们</a></dd>
+                </dl>
+            </div>
+        </li>
+    </ul>
+    <!--pc-->
+
+    <!--phone-->
+    <dl class="phone_side r">
+        <dt><a href="javascript:;"><img src="picture/pic17.png" width="100%" alt=""/></a></dt>
+        <dd>
+            <div id="cmfrom">
+                <div class="but">非格</div>
+            </div>
+            <div class="phone_navbar">
+                <dl>
+                    <dt>
+                        <a href="index.html">首页</a>
+                    </dt>
+                </dl>
+                <dl>
+                    <dt>
+                        <i></i>
+                        <a href="product.html">产品</a>
+                    </dt>
+                    <dd>
+                     <a href="product.html">非格系列</a>
+                     <a href="productSZ.html">数字标牌系列</a>
+                     <a href="productZN.html" >智能硬件系列</a>
+                    </dd>
+                </dl>
+                 <dl>
+                    <dt>
+                        <i></i>
+                        <a href="news/newsIndustry.html">资讯</a>
+                    </dt>
+                    <dd>
+                     <a href="news/newsIndustry.html">行业资讯</a>
+                     <a href="news/newsCompany.html">企业资讯</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <i></i>
+                        <a href="case/case.html">案例</a>
+                    </dt>
+                    <dd>
+                        <a href="case/case.html">行业案例</a>
+                        <a href="case/caseVS.html">公司案例</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <i></i>
+                        <a href="service/service.html">服务</a>
+                    </dt>
+                    <dd>
+                        <a href="service/service.html">公司服务</a>
+                        <a href="service/hardware.html">硬件定制</a>
+                        <a href="service/software.html">软件定制</a>
+                        <a href="service/questions.html">常见问题</a>
+                        <a href="service/afterService.html">售后服务</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <i></i>
+                        <a href="company.html">我们</a>
+                    </dt>
+                    <dd>
+                        <a href="company.html">公司简介</a><a href="summary.html">企业文化</a><a href="address.html">联系我们</a>
+                    </dd>
+                </dl>
+            </div>
+        </dd>
+    </dl>
+    <!--phone-->
+</header>
+
+<div class="ny_con">
+    <div class="ny_nav">
+        <div id="wrapper" class="max1200">
+            <div id="scroller">
+                <ul class="mbx">
+                   <li><a href="index.html">首页</a></li> <li>></li><li class="on"><a href='company.html'>关于我们</a></li>
+                </ul>
+            </div>
+            <script type="text/javascript">
+                $(window).load(function(){
+                    loaded ();
+                });
+                var myScroll;
+                function loaded () {
+                    myScroll = new IScroll('#wrapper', { scrollX: true, scrollY: false});
+                }
+            </script>
+        </div>
+    </div>
+    <div class="bggrey">
+        <div class="max1200 ny_main">
+           <dl class="leftnav">
+                <dt class="on">
+                <em> > </em>
+                    关于我们
+                </dt>
+                 <dd>
+                    <div class="dt">
+                        <a class="link" href="company.html">公司简介</a>
+                    </div>
+                 </dd>
+                 <dd>
+                    <div class="dt">
+                        <a class="link" href="summary.html">企业文化</a>
+                    </div>
+                 </dd>
+                <dd class="on">
+                    <div class="dt">
+                        <a class="link">联系我们</a>
+                    </div>
+                 </dd>
+            </dl>
+            <div class="rightmain">
+                <div id="liability2" class="liability liability2">
+                    <div class="bd">
+                        <ul>
+                            <li>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact_box3">
+                        <div class="rightmain_Pd">
+                            <h1 class="bt">
+                                广州非格科技有限公司
+                            </h1>
+                            <h2 class="sm">
+                                <span>地址：广州市黄埔区奥园广场H4幢9层</span><br>
+                                <span>电话：17329931126</span>
+                            </h2>
+                        </div>
+                        <form name="query" class="contact_box1">
+                        <span>出发至:</span>
+                        <input type="text" class="tex" placeholder="请输入目的地：" name='d' value="广州非格科技有限公司"  class="address"/ >
+                        <a class="addressHref but" href="http://api.map.baidu.com/geocoder?address=广州非格科技有限公司&output=html&src=yourComponyName|yourAppName" target="_blank">查询路线</a>
+                        </form>
+
+                    </div> 
+                </div>
+                <div id="dituContent"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function(){
+        $(".address").change(function(event) {
+            $(".addressHref").attr("href","http://api.map.baidu.com/geocoder?address="+$(this).val()+"&output=html&src=yourComponyName|yourAppName")
+            /* Act on the event */
+        });
+    })
+</script>
+<div class="xfooter">
+    <div class="inner pd12">
+        <div class="dl_con">
+            <dl class="ft_dl">
+               <dt><a href="product.html">产品中心</a></dt>
+                <dd>
+                    <ul>
+                    <li><a href="product.html">非格系列</a></li><li><a href="productSZ.html">数字标牌系列</a></li><li><a href="productZN.html" >智能硬件系列</a></li> 
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="ft_dl">
+                <dt><a href="news/newsCompany.html">最新资讯</a></dt>
+                <dd>
+                    <ul>
+                     <li><a href="news/newsCompany.html">企业新闻</a></li>
+                     <li><a href="news/newsIndustry.html">行业新闻</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="ft_dl">
+                <dt><a href="case/caseVS.html">行业案例</a></dt>
+                <dd>
+                    <ul>
+                     <li><a href="case/caseVS.html">公司案例</a></li>
+                     <li><a href="case/case.html">行业案例</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="ft_dl">
+                <dt><a href="javascript:;">服务支持</a></dt>
+                <dd>
+                    <ul>
+                         <li><a href="service/service.html">公司服务</a></li>
+                         <li><a href="service/hardware.html">硬件定制</a></li>
+                         <li><a href="service/software.html">软件定制</a></li>
+                         <li><a href="service/questions.html">常见问题</a></li>
+                         <li><a href="service/afterService.html">售后服务</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="ft_dl">
+                <dt><a href="javascript:;">后台管理</a></dt>
+                <dd>
+                    <ul>
+                       
+                         <li><a href="https://vi-stores.com/vs">自动售货管理平台</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="ft_dl">
+                <dt><a href="javascript:;">我们</a></dt>
+                <dd>
+                    <ul>
+                        <li><a href="company.html">公司简介</a></li><li><a href="summary.html">企业文化</a></li><li><a href="address.html">联系我们</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            </div>
+        <div class="ft_ewm">
+            <div class="wz">
+                <p class="p1">客服热线:</p>
+                <p class="p2">17329931126</p>
+                <a class="a1" href="http://wpa.qq.com/msgrd?V=3&uin=310182341&Site=广州非格&Menu=yes" target="_blank">进入QQ在线咨询</a>
+            </div>
+            <div class="ewmcon">
+                <img src="images/pic161.jpg" alt=""/>
+                <p class="p1">官方微信</p>
+            </div>
+            
+        </div>
+        <div class="ftbottom">
+            <p class="p1">
+                Copy@2003 - 2016 ALL rights reversed. <a target="_blank"  href="http://www.miitbeian.gov.cn" style="color:#aaa;">广州非格科技有限公司</a> | @2016 WeiChao 粤ICP备15075539号-1
+            </p>
+        </div>
+    </div>
+
+</div>
+<div class="netzhezhao"></div>
+<div class="last_zhezhao"></div>
+<ul class="xkefu">
+    <li class="li1"><a class="gotop" href="javascript:"></a></li>
+    <li class="li2"><a href="company.html"></a></li>
+    <li class="li3"><a href="http://wpa.qq.com/msgrd?V=3&uin=310182341&Site=广州非格&Menu=yes" target="_blank"></a></li>
+    <li class="li4"><a href="javascript:"></a>
+        <div class="li4model">
+            <p class="p1">广州非格科技有限公司</p>
+            <p class="p2">地址：<span>广州市黄埔区奥园广场H4幢9层</span></p>
+            <p class="p2">电话：<span>17329931126</span></p>
+        </div>
+        <script type="text/javascript">
+            $(function(){
+                $('.xkefu .li4').click(function(){
+                        if($(this).hasClass('on')){
+                            $(this).removeClass('on');
+                            $(this).find('.li4model').fadeOut();
+                        }else{
+                            $(this).addClass('on');
+                            $(this).find('.li4model').fadeIn();
+                            $(document).bind("click",function(e){
+                                var target = $(e.target);
+                                if(target.closest(('.li4')).length == 0){
+                                    $('.li4model').fadeOut(700);
+                                    $('.xkefu .li4').removeClass('on');
+                                }
+                            });
+                        }
+                });
+
+                 var checked = 1;
+                $(window).scroll(function(){
+                    $('.li4model').fadeOut(700);
+                    $('.xkefu .li4').removeClass('on');
+                    if(checked){
+                        $(".dialog").stop().animate({bottom: 0}, 600);
+                        $(".dialog .close").show();
+                        checked = 0;
+                    }
+                });
+                $(".dialog .close").click(function(){
+                    $(".dialog").stop().animate({bottom: -130}, 600, function(){
+                        $(".dialog .close").hide();
+                    });
+                });
+                $(".dialog .mess").click(function(){
+                    $(".dialog").stop().animate({bottom: 0}, 600);
+                    $(".dialog .close").show();
+                });
+             })
+        </script>
+    </li>
+</ul>
+<div class="dialog">
+    <div class="close">×</div>
+    <a href="http://wpa.qq.com/msgrd?V=3&uin=310182341&Site=广州非格&Menu=yes" target="_blank">
+        <img src="picture/qq.png" class="mess" alt="在线咨询">
+        <span class="a1">在线客服</span>
+    </a>
+</div>
+</body>
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+    }
+    
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(113.551691,23.152292);//定义一个中心点坐标
+        map.centerAndZoom(point,17);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+    
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+    
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+    var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+    map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+    var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+    map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+    var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+    map.addControl(ctrl_sca);
+    }
+    
+    //标注点数组
+    var markerArr = [{title:"广州非格电子有限公司",content:"地址：广州市黄埔区奥园广场H4幢9层<br/>电话：17329931126",point:"113.551431|23.151644",isOpen:1,icon:{w:23,h:25,l:0,t:21,x:9,lb:12}}
+         ];
+    //创建marker
+    function addMarker(){
+        for(var i=0;i<markerArr.length;i++){
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0,p1);
+            var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point,{icon:iconImg});
+            var iw = createInfoWindow(i);
+            var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+            marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                        borderColor:"#808080",
+                        color:"#333",
+                        cursor:"pointer"
+            });
+            
+            (function(){
+                var index = i;
+                var _iw = createInfoWindow(i);
+                var _marker = marker;
+                _marker.addEventListener("click",function(){
+                    this.openInfoWindow(_iw);
+                });
+                _iw.addEventListener("open",function(){
+                    _marker.getLabel().hide();
+                })
+                _iw.addEventListener("close",function(){
+                    _marker.getLabel().show();
+                })
+                label.addEventListener("click",function(){
+                    _marker.openInfoWindow(_iw);
+                })
+                if(!!json.isOpen){
+                    label.hide();
+                    _marker.openInfoWindow(_iw);
+                }
+            })()
+        }
+    }
+    //创建InfoWindow
+    function createInfoWindow(i){
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+        return iw;
+    }
+    //创建一个Icon
+    function createIcon(json){
+        var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+        return icon;
+    }
+    
+    initMap();//创建和初始化地图
+</script>
+</html>
